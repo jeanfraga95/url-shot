@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/links", "destination": "/api/links" },
+    { "source": "/:slug", "destination": "/api/redirect?slug=:slug" }
+  ]
+}
